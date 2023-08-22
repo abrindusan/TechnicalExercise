@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AndreiBrindusan.DataModel.CorrelateDataModel>
+
+<style>
+    table {
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+
+    th, td {
+        padding: 5px;
+        text-align: left;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Depot Name</th>
+            <th>Country Name</th>
+            <th>Drug Type Name</th>
+            <th>Drug Unit ID</th>
+            <th>Pick Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DepotName</td>
+                <td>@item.CountryName</td>
+                <td>@item.DrugTypeName</td>
+                <td>@item.DrugUnitId</td>
+                <td>@item.PickNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

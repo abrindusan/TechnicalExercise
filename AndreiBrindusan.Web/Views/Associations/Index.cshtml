@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form method="post">
+        <label for="DepotId">Depot ID</label>
+        <input type="text" id="DepotId" name="DepotId" />
+
+        <label for="StartPickNumber">Start pick number</label>
+        <input type="text" id="StartPickNumber" name="StartPickNumber" required />
+
+        <label for="EndPickNumber">End pick number</label>
+        <input type="text" id="EndPickNumber" name="EndPickNumber" required />
+
+        <label>Select Operation type:</label>
+        <select id="Operation" name="Operation">
+            <option value="Associate">Associate</option>
+            <option value="Diasociate">Diasociate</option>
+
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>

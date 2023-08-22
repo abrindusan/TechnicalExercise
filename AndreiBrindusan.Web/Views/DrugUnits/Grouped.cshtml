@@ -1,0 +1,53 @@
+﻿@model Dictionary<string, List<AndreiBrindusan.DataModel.DrugUnit>>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .group-heading {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .group-name {
+        font-style: italic;
+    }
+</style>
+
+@if (Model != null)
+{
+    @foreach (var group in Model)
+    {
+        <h2 class="group-heading">@group.Key</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Drug Unit Name</th>
+                    <th>Depot ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var drug in group.Value)
+                {
+                    <tr>
+                        <td>@drug.DrugUnitName</td>
+                        <td>@drug.DepotId</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

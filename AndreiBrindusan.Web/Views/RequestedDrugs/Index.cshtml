@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Routing;
+@model IEnumerable<AndreiBrindusan.DataModel.DrugUnit>
+
+@{
+    ViewData["Title"] = "Index";
+    var id = Context.GetRouteData().Values["id"];
+}
+
+<h1>Index</h1>
+
+
+<div class="text-center">
+    <form method="post">
+        <label for="SiteId">Site Id</label>
+        <input type="text" id="SiteId" name="SiteId" required />
+        <label for="DrugCode">Drug Code</label>
+        <input type="text" id="DrugCode" name="DrugCode" required />
+        <label for="Quantity">Quantity</label>
+        <input type="text" id="Quantity" name="Quantity" required />
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PickNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DrugUnitName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DepotId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PickNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DrugUnitName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DepotId)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\AndreiBrindusan.DataModel.deps.json
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\AndreiBrindusan.DataModel.dll
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\ref\AndreiBrindusan.DataModel.dll
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\AndreiBrindusan.DataModel.pdb
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.csproj.AssemblyReference.cache
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.AssemblyInfoInputs.cache
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.AssemblyInfo.cs
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.csproj.CoreCompileInputs.cache
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.dll
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\ref\AndreiBrindusan.DataModel.dll
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.pdb
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\AndreiBrindusan.DataModel.runtimeconfig.json
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\bin\Debug\net5.0\AndreiBrindusan.DataModel.runtimeconfig.dev.json
+C:\Users\abrindusan\source\repos\AndreiBrindusan\AndreiBrindusan.DataModel\obj\Debug\net5.0\AndreiBrindusan.DataModel.genruntimeconfig.cache

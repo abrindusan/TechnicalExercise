@@ -1,0 +1,23 @@
+﻿@model List<GroupedWeights>
+
+<h1>Drug Unit Weights</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Depot Id</th>
+            <th>Drug Type Name</th>
+            <th>Total Weight (kg)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in Model)
+        {
+            <tr>
+                <td>@group.DepotId</td>
+                <td>@group.DrugTypeName</td>
+                <td>@group.Weight.ToString("0.00")</td>
+            </tr>
+        }
+    </tbody>
+</table>
